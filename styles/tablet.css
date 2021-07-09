@@ -1,0 +1,14 @@
+@import "cover.css";
+
+.wrapper {
+    grid-template-areas: 
+    'a a a a'
+    'a a a a'
+    'a a a a'
+    'a a a a';
+}
+
+.container{
+    grid-area: a;
+}
+
